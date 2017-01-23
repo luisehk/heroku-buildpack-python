@@ -1,6 +1,5 @@
 # Install dependencies with Pip.
-puts-cmd "python setup.py install"
-puts-cmd "pip install -r requirements.txt"
+puts-cmd "python setup.py install && pip install -r requirements.txt"
 
 set +e
 # delete any existing egg links, to uninstall exisisting installations.
